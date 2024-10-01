@@ -11,3 +11,32 @@ By analyzing donor data, this system provides insights into donation patterns an
 2. **Enhanced Recommendations**: Based on past donations and donor preferences, the system will suggest campaigns or causes that might resonate with specific donors, improving overall engagement.
 3. **Scalability and Actionability**: Designed to handle large volumes of data, the system ensures that charitable organizations can scale their operations effectively and make data-driven decisions.
 4. **Sale Prediction for Donations**: Similar to predicting product sales, the system will include a sale predictor for donations, which estimates potential future contributions based on input characteristics, enabling organizations to plan campaigns and resource allocation more effectively.
+
+# Installation Guide for **Donation Tracking System** using **Java on NetBeans** with a **SQL database**:
+
+1. **Clone the Repository:**
+   - Use `git clone <repository's URL>` to clone the project.
+
+2. **Open in NetBeans:**
+   - Open the cloned project in NetBeans via `File > Open Project`.
+
+3. **Set Up SQL Database:**
+   - Create the database and necessary tables using provided SQL scripts or manual setup.
+
+4. **Configure Database Connection:**
+   - Modify the database connection details (URL, username, password) in the relevant Java file (e.g., `DatabaseConnection.java`).
+   - Add the required **JDBC driver** to the project via the **Libraries** section.
+
+5. **Install Dependencies:**
+   - Add any required libraries (JAR files) through `Project > Properties > Libraries > Add JAR/Folder`.
+
+6. **Update File Paths:**
+   - Update paths for any additional files (models, scalers, etc.) in the relevant Java files.
+
+7. **Run the Application:**
+   - In NetBeans, run the project by pressing **F6** or selecting `Run > Run Project`.
+
+8. **Admin Access:**
+   - Use credentials from the `cred.txt` file for admin login.
+
+By following these concise steps, you'll be able to set up and run the **Donation Tracking System** using **NetBeans** with a **SQL database**.
